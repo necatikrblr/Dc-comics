@@ -31,14 +31,18 @@ img{
 /* navbar bitiş */
 /* slider */
 .slider-css{
-    height: 600px;
+    height: 600px!important;
 }
 .carousel-item img {
-    height: 600px;
+    height: 600px!important;
     object-position: top;
     object-fit:cover;
   }
-.slider1{
+  .sliderbttn{
+    width: 300px; 
+    border-radius: 5rem !important;
+  }
+/* .slider1{
     background-image: url(img/content1.jpg);
     background-position: top;
     background-size:cover;
@@ -58,7 +62,7 @@ img{
     background-size:cover;
     background-repeat: no-repeat;
     height: 600px;
-}
+} */
 .slider-div{
     position: absolute;
     top: 50%;
@@ -119,4 +123,70 @@ footer{
 .bord{
     border-right: 1px solid white;
     border-left: 1px solid white;
+}
+/* responsive */
+@media  screen and (max-width: 950px){
+    .galeri{
+        display: none;
+    }
+    .slider-css{
+        height: 400px!important;
+    }
+    .carousel-item img {
+        height: 400px!important;
+    }
+    .slider-div{
+        position: absolute;
+        top: 50%;
+    }
+    .slider1 .carousel-caption h2{
+        font-size: 50px;
+    }
+    .slider2 .carousel-caption h2{
+        font-size: 50px;
+    }
+    .slider3 .carousel-caption h2{
+        font-size: 50px;
+    }
+    
+    
+}
+@media screen and (max-width: 769px) {
+    .slider-div{
+        position: absolute;
+        top: 30%;
+    }
+    .slider1 .carousel-caption h2{
+        color: #000;
+        font-size: 40px;
+    }
+    .slider2 .carousel-caption h2{
+        font-size: 40px;
+    }
+    .slider3 .carousel-caption h2{
+        color: red;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .slider-div{
+        position: absolute;
+        top: 30%;
+    }
+    .slider1 .carousel-caption h2{
+        color: #000;
+        font-size: 40px;
+    }
+    .slider2 .carousel-caption h2{
+        font-size: 40px;
+    }
+    .slider3 .carousel-caption h2{
+        color: red;
+        font-size: 40px;
+    }
+    .sliderbttn{
+        width: 200px!important; 
+        border-radius: 1rem !important;
+      }
 }
