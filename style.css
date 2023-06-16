@@ -124,6 +124,29 @@ footer{
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
+
+
+
+/* comic */
+
+.absolute-active{
+    position: absolute;
+    display: block;
+}
+.absolute-none{
+    display: none;
+}
+.conta-sepet{
+    position: absolute;
+    top: 8%;
+    right: 0;
+    z-index: 3;
+    background-color: white !important;
+    color: black !important;
+    border: 3px solid black !important;
+    width: 30%;
+}
+
 /* responsive */
 @media  screen and (max-width: 950px){
     .galeri{
