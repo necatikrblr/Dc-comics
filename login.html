@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
+    <!-- İcon -->
+    <script src="https://kit.fontawesome.com/327330b1d9.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <style>
+        .kap{
+            height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar nav navbar-expand-md navbar-dark ">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <div class="hero-img"><img src="img/logo.png" alt=""></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-nav">
+                <span class="navbar-toggler-icon fs-2"></span>
+            </button>
+           <div class="navbar-collapse collapse" id="my-nav">
+            <ul class="navbar-nav align-items-end align-items-lg-center ms-auto">
+                <li class="nav-item px-1 fs-5 "><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item px-1 fs-5 "><a href="" class="nav-link">COMIC</a></li>
+                <li class="nav-item px-1 fs-5 "><a href="" class="nav-link">MOVIES & TV</a></li>
+                <li class="nav-item px-1 fs-5 "><a href="" class="nav-link">GAMES</a></li>
+                <li class="nav-item px-1 fs-5 "><a href="" class="nav-link">CHARACTERS</a></li>
+                <li class="nav-item px-1 fs-4 "><a href=""><i class="fa-solid fa-user text-secondary"></i></a></li>
+                <li class="nav-item px-1 fs-4 "><i class="fa-solid fa-cart-shopping text-secondary shop-btn" id="clickbtn"></i></li>
+            </ul>
+           </div>
+        </div>
+    </nav>
+    <div class="conta-sepet absolute-none">
+        <div class="card-header">
+            <p class="fs-3 text-center">Sepetim</p>
+        </div>
+        <div class="card-body shoping-card" id="eklenecekyer"></div>
+        <div class="card-footer mt-2 border-top">
+            <div class="w-100 d-flex justify-content-around">
+                <span>66</span>
+                <span>66</span>
+                <span>Pay</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid kap mt-5">
+        <div class="m-auto w-75 d-flex">
+            <div class="w-75">
+                <img src="img/loginarkaplan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="w-25 bg-white">
+                <h3 class="text-center">Login</h3>
+                <label for="">Name</label>
+                <input type="text">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="footer bg-black">
+        <div class=" text-center pt-3 pe-5 ">
+            <a href="" class="ps-5">
+                <img src="img/logo.png" alt="" class="hero-img">
+            </a>
+        </div>
+        <div class="w-100  pt-2">
+            <ul class="row m-0 p-0 justify-content-center bg-black">
+                <li class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 fs-6 text-center bord"><a href="" class="text-decoration-none"><p>PRIVACY POLICY</p></a></li>
+                <li class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 fs-6 text-center"><a href="" class="text-decoration-none"><p>TERMS</p></a></li>
+                <li class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 fs-6 text-center bord"><a href="" class="text-decoration-none"><p>AD CHOICES</p></a></li>
+                <li class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 fs-6 text-center"><a href="" class="text-decoration-none"><p>ACCESSIBILITY</p></a></li>
+                <li class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 fs-6 text-center bord"><a href="" class="text-decoration-none"><p>COOKIE SETTINGS</p></a></li>
+            </ul>
+        </div>
+        <div class="w-100 text-center m-0 p-0 bg-black"><P>DC.ALL RIGHTS RESERVED</P></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
