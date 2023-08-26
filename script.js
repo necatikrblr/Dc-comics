@@ -14,7 +14,6 @@ sepetclick.addEventListener("click", ()=>{
 
 
 
-
 const card = document.getElementsByClassName("card");
 const btnadd = document.querySelectorAll(".btn-add"); 
 const btncard = document.querySelector(".shop-btn");
